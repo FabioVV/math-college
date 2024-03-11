@@ -1,0 +1,5 @@
+nome = input("Whats your name? ")
+idade = int(input("Whats your age? "))
+profissao = input("Whats your profession? ")
+esporte = input("Which is your prefered sport? ")
+print(f"The name is {nome}, the age is {idade} year(s), the profession is {profissao} and the prefered sport is {esporte}")
