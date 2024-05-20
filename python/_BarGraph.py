@@ -12,7 +12,7 @@ colors = ["#FF1493","yellow","#00008B","#7CFC00"]
 plt.subplots(figsize=(8,3))
 plt.bar(veiculos, quantidade, color=colors)
 
-plt.title("Veiculos que passaram pelo pedágio", color="blue")
+plt.title("Veiculos que passaram pelo pedágio", color="green")
 plt.ylim([0,180])
 
 for i, val in enumerate(quantidade):
